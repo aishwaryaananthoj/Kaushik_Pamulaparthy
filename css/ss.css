@@ -1,0 +1,142 @@
+.main-page{
+  background-image: url(https://images4.alphacoders.com/255/thumb-1920-255596.jpg);
+  /*background-image: url(https://images.unsplash.com/photo-1536632087471-3cf3f2986328?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1655&q=80);*/
+  background-repeat: no-repeat;
+  /*padding:559px 100px 75px 100px;*/
+  background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    /*display: table;
+    z-index: -1;*/
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 768px){
+.ms-md-auto {
+    margin-left: auto!important;
+}
+}*/
+navbar-brand{
+  text-align: left;
+  font-family: 'Dancing Script', cursive;
+}
+.navbar{
+    z-index: 9999;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%; 
+  z-index: 1;
+  color: white;
+}
+/*body{
+  background-image: url(https://www.teahub.io/photos/full/207-2075561_photographer-holding-a-dslr-camera-adult-man-outdoor.jpg);
+  background-image: url(img/kik.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 1000%;
+  position: relative;
+} */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  overflow: hidden;
+}
+/* Control the right side */
+.right {
+  right: 0;
+  background-color:#ff9a8c;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+}
+/*.image{
+  width: 25px;
+  height: 25px;
+  border-radius: 45%;
+}*/
+#top, #contact{
+  background-color:#ff9a8c;
+}
+.album{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: 'Asap', sans-serif;
+}
+#middle{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  
+}
+.middle-container{
+  text-align:center;
+  margin-bottom: 3rem;
+  font-family: 'Asap', sans-serif;
+  font-size: 10px;
+}
+.icon{
+  color:#ff9a8c;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.services{
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Asap', sans-serif;
+}
+#contact{
+  text-align:center;
+  padding:5% 15%;
+  font-family: 'Asap', sans-serif;
+}
+.social-icon{
+  margin:10px 10px;
+}
+.touch{
+  margin-top: 1rem;
+}
+h5{
+  color: #dddddd;
+}
+#services, .heading{
+  font-family: 'Asap', sans-serif;
+}
